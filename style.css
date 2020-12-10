@@ -1,0 +1,117 @@
+.container p {
+	font-family: 'Helvetica', cursive;
+	font-size: 10px;
+	text-align: center;
+}
+.banner h1{
+	color: #db6400;
+	text-align : center;
+	font-family: 'Amita', cursive;
+	background: white;
+	border-radius: 4px;
+	padding: 10px 5px 10px 5px;
+
+}
+
+
+.banner{
+	background-image: url(images/cours.jpg);
+	color: #ffa62b;
+	padding: 50px 0px;
+	background-size: cover;  
+	background-position: center;
+	font-family:  'Helvetica', sans-serif;
+}
+.banner button{
+	border:0;
+	background: #81b214;
+	font-family:  'Helvetica', sans-serif;
+	color:white;
+	font-weight:bold;
+	padding:5px 20px;
+	font-size:10px;
+	border-radius: 4px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	align-items: center;
+	display: block;
+	margin: auto;
+	}
+.container{
+	width: 100%; 
+}
+body{
+	margin: 0px;
+}
+.title{
+	font-size:10px;
+	color: #ffa62b;
+	font-family: 'Helvetica', cursive;
+}
+
+.texte{
+	font-size: 5px;
+	padding: 5px;
+	margin: 15px;
+	color:black;
+	}
+
+.structure {
+
+	display: flex;
+	flex-direction: row;
+/*	width: 60vw;*/
+	justify-content: space-between;
+	margin: 5px;
+}
+
+.corps {
+	background: #f6f5f1;
+	width:calc(33vw - 6px);
+	padding-top: 10px;
+	padding-bottom:1px;
+	text-align:center;
+	justify-content: center;
+	align-items: center;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+button{
+	border-radius: 4px;
+	align-items: center;
+}
+
+body {
+	font-family: 'Helvetica', sans-serif;
+	color: #39311d;
+}
+h2{
+	text-align: center;
+	font-size: 20px;
+}
+
+.effet{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background : #1a1c20;
+	margin: 0px;
+	padding: 40px;
+
+}
+.effet li{
+	display: inline;
+	justify-content: space-between;
+	margin: 10px;
+}
+
+.taille{
+	height:100px;
+	width: 100px;
+	border-radius: 50%;
+	background-position: center;
+	background-size: cover;
+}
